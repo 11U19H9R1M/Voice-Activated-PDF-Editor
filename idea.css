@@ -1,0 +1,32 @@
+/* Example CSS for voice control button */
+.voice-control-button {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .voice-control-button:hover {
+    background-color: #d40000;
+  }
+  
+  /* Adding accessibility focus styles */
+  a:focus,
+  button:focus,
+  input:focus,
+  textarea:focus {
+    outline: 3px solid #ff0000;
+    outline-offset: 2px;
+  }
+  
